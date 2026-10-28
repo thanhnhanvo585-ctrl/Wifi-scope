@@ -1,0 +1,26 @@
+﻿# Log và tệp tạm
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Thông tin cấu hình riêng
+.env
+.env.*
+!.env.example
+
+# DLL được biên dịch lại từ NativeWifi.cs
+/WifiScope.Native.dll
+
+# Gói tải về và bản giải nén trùng lặp
+/tools/iperf3.zip
+/tools/iperf-package/
+
+# Công cụ bên thứ ba: cài riêng khi cần đo iPerf
+/tools/iperf3.exe
+/tools/cygwin1.dll
+
+# Dữ liệu khảo sát và kết quả xuất cá nhân
+*.wifiscope.json
+/wifi-history.csv
+/exports/
